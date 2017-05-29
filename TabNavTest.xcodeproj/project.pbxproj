@@ -14,6 +14,7 @@
 		AA06D6F41EDB5E0700B59868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA06D6F21EDB5E0700B59868 /* LaunchScreen.storyboard */; };
 		AA06D6FC1EDB5E5700B59868 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA06D6FB1EDB5E5700B59868 /* SecondViewController.swift */; };
 		AA06D6FE1EDB5EA900B59868 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA06D6FD1EDB5EA900B59868 /* ThirdViewController.swift */; };
+		AA06D7001EDC3FEA00B59868 /* SomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA06D6FF1EDC3FEA00B59868 /* SomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AA06D6F51EDB5E0700B59868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA06D6FB1EDB5E5700B59868 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AA06D6FD1EDB5EA900B59868 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AA06D6FF1EDC3FEA00B59868 /* SomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				AA06D6E91EDB5E0700B59868 /* AppDelegate.swift */,
 				AA06D6EB1EDB5E0700B59868 /* FirstViewController.swift */,
 				AA06D6ED1EDB5E0700B59868 /* Main.storyboard */,
+				AA06D6FF1EDC3FEA00B59868 /* SomeViewController.swift */,
 				AA06D6F01EDB5E0700B59868 /* Assets.xcassets */,
 				AA06D6F21EDB5E0700B59868 /* LaunchScreen.storyboard */,
 				AA06D6F51EDB5E0700B59868 /* Info.plist */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA06D6FC1EDB5E5700B59868 /* SecondViewController.swift in Sources */,
+				AA06D7001EDC3FEA00B59868 /* SomeViewController.swift in Sources */,
 				AA06D6EC1EDB5E0700B59868 /* FirstViewController.swift in Sources */,
 				AA06D6FE1EDB5EA900B59868 /* ThirdViewController.swift in Sources */,
 				AA06D6EA1EDB5E0700B59868 /* AppDelegate.swift in Sources */,
@@ -312,6 +316,7 @@
 				AA06D6FA1EDB5E0700B59868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
