@@ -124,6 +124,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="someViewButtonOutlet" destination="8lX-rC-yAP" id="ByY-uS-tGX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ie-ax-0Bi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -168,6 +171,7 @@
         <!--Third NC-->
         <scene sceneID="KyF-5w-J1v">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Mz-0g-nNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController title="Third NC" automaticallyAdjustsScrollViewInsets="NO" id="cNx-te-hUN" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Third view" id="wo5-aR-asH"/>
                     <toolbarItems/>
@@ -180,7 +184,6 @@
                         <segue destination="WH8-Rw-gBN" kind="relationship" relationship="rootViewController" id="TRe-DF-Xu6"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Mz-0g-nNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2325" y="729"/>
         </scene>
@@ -206,6 +209,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DlO-al-dVh"/>
+        <segue reference="bZk-JZ-wXp"/>
     </inferredMetricsTieBreakers>
 </document>

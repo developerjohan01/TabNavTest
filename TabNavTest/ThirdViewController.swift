@@ -20,9 +20,13 @@ class ThirdViewController: UIViewController, UITabBarDelegate, UINavigationBarDe
         print(navItem.backBarButtonItem?.title ?? "viewDidLoad: No back button item")
         // Do any additional setup after loading the view.
     }
+    
+    @IBOutlet weak var someViewButtonOutlet: UIBarButtonItem!
 
     override func viewWillAppear(_ animated: Bool) {
-        navigationItem.title = "Three - 3"
+        super.viewWillAppear(animated)
+        self.tabBarController?.navigationItem.title = "My 3rd Title"
+        self.tabBarController?.navigationItem.rightBarButtonItem = someViewButtonOutlet //This is the IBOutlet variable that you previously added
     }
     
     override func viewDidAppear(_ animated: Bool) {
