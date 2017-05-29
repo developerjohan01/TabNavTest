@@ -25,7 +25,6 @@ class ThirdViewController: UIViewController, UITabBarDelegate, UINavigationBarDe
         super.viewWillAppear(animated)
         self.tabBarController?.navigationItem.title = self.navigationItem.title
         self.tabBarController?.navigationItem.rightBarButtonItems = self.navigationItem.rightBarButtonItems
-        //        self.tabBarController?.navigationItem.rightBarButtonItem = rightButtonOutlet //This is the IBOutlet variable that you previously added
     }
     
     override func viewDidAppear(_ animated: Bool) {
