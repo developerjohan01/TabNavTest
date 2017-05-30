@@ -1,36 +1,24 @@
 //
-//  ThirdViewController.swift
+//  SomeViewController.swift
 //  TabNavTest
 //
-//  Created by Johan Nilsson on 2017/05/28.
+//  Created by Johan Nilsson on 2017/05/29.
 //  Copyright © 2017 Johan Nilsson. All rights reserved.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController, UITabBarDelegate, UINavigationBarDelegate {
+class SomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("3")
 
-        let navItem = navigationItem
-        print(navItem)
-        print(navItem.backBarButtonItem?.title ?? "viewDidLoad: No back button item")
         // Do any additional setup after loading the view.
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.tabBarController?.navigationItem.title = self.navigationItem.title
-        self.tabBarController?.navigationItem.rightBarButtonItems = self.navigationItem.rightBarButtonItems
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        print(navigationItem.title ?? "viewDidAppear: No title")
-        print(navigationItem.backBarButtonItem?.title ?? "viewDidAppear: No back button item")
-        print(navigationItem.rightBarButtonItems?[0].title ?? "viewDidAppear: No right button item")
+        print("Alert!")
     }
     
     override func didReceiveMemoryWarning() {

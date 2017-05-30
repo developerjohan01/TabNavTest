@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UINavigationBarDelegate {
+class SecondViewController: UIViewController, UINavigationBarDelegate, UITabBarDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,15 +18,14 @@ class SecondViewController: UIViewController, UINavigationBarDelegate {
         
     }
     
-    func navigationBar(_ navigationBar: UINavigationBar, shouldPush item: UINavigationItem) -> Bool {
-        print(item)
-        return true
-    }
+    @IBOutlet weak var rightButtonOutlet: UIBarButtonItem!
     
-    func navigationBar(_ navigationBar: UINavigationBar, didPush item: UINavigationItem) {
-        print(item)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.navigationItem.title = self.navigationItem.title
+        self.tabBarController?.navigationItem.rightBarButtonItems = self.navigationItem.rightBarButtonItems
+//        self.tabBarController?.navigationItem.rightBarButtonItem = rightButtonOutlet //This is the IBOutlet variable that you previously added
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
